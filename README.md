@@ -14,6 +14,12 @@ The code shows the main ingredients needed for a cSMC implementation:
 
 The main example uses a linear Gaussian state-space model (LGSSM). This is useful because the exact smoothing distribution is available from the Kalman smoother, giving a reliable reference against which the particle smoother can be compared.
 
+## Acknowledgements
+
+Parts of this implementation are adapted from [`AdrienCorenflos/particle_mala`](https://github.com/AdrienCorenflos/particle_mala), an Apache-2.0 licensed repository accompanying the paper *Particle-MALA and Particle-mGRAD: Gradient-based MCMC methods for high-dimensional state-space models* by Adrien Corenflos and Axel Finke.
+
+This repository simplifies the original implementation to provide a minimal educational example of cSMC in JAX. The original project contains a broader implementation of gradient-informed particle MCMC methods, including Particle-MALA, Particle-mGRAD, auxiliary variants, and related experiments.
+
 ## Repository structure
 
 A typical layout is:
