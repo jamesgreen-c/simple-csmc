@@ -1,4 +1,4 @@
-This project includes ideas and/or adapted code from:
+This project includes adapted code from:
 
 AdrienCorenflos/particle_mala
 https://github.com/AdrienCorenflos/particle_mala
